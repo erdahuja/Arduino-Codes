@@ -9,7 +9,7 @@
 
 
 /*-----( Declare Variables )-----*/
-int light1onhour1 = 13;
+int light1onhour1 = 13;//timings to turn on light
 int light1onmin1 =  40;
 int light1onsec1 = 00;
 int light1offhour1 = 13;
@@ -207,7 +207,7 @@ int ultrasonic()
 void DELAY(int x)
 {
   for (int i = 0; i < x; i++)
-    Alarm.delay(1) ;
+    Alarm.delay(10) ;
   check() ;
 }
 
